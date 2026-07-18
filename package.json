@@ -10,7 +10,6 @@
     "studio": "drizzle-kit studio",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate"
-
   },
   "keywords": [],
   "author": "",
@@ -18,6 +17,7 @@
   "packageManager": "pnpm@10.30.0",
   "devDependencies": {
     "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.1.1",
     "@types/pg": "^8.20.0",
     "drizzle-kit": "1.0.0-rc.4",
@@ -28,6 +28,8 @@
     "dotenv": "^17.4.2",
     "drizzle-orm": "1.0.0-rc.4",
     "express": "^5.2.1",
-    "pg": "^8.22.0"
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.22.0",
+    "zod": "^4.4.3"
   }
 }
